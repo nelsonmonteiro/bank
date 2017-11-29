@@ -12,5 +12,5 @@ pip install -r requirements.txt
 echo 'Create database'
 sh manage migrate
 
-echo 'Create superuser'
+echo -e '\n\nCreate superuser'
 sh manage createsuperuser

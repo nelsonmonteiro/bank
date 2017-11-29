@@ -23,7 +23,7 @@ We want you to develop an application through which a big bank can easily issue 
 git clone https://github.com/nelsonmonteiro/bank.git
 ```
 
-#### Setup project localy
+#### Setup project locally
 ```
 cd bank/
 ./setup
@@ -46,7 +46,7 @@ The token key should be included in the Authorization HTTP header. The key shoul
 
 Authorization: Token fd5104f5741bc8ca17e33f27c0f8f9982ac6bffb
 
-To access to your token, login at http://127.0.0.1:8000/ after setting up the project localy and have created a superuser.
+To access to your token, login at http://127.0.0.1:8000/ after setting up the project locally and have created a superuser.
 
 
 ### GET /api/loans

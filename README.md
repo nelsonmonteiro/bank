@@ -11,13 +11,33 @@ We want you to develop an application through which a big bank can easily issue 
 <b>Limitations:</b>
 - Loans are paid back in monthly installments.
 
+## Requirements
+- Python 2.7 or Python 3
+- Fabric
+
 
 ## Installation
 
 ### Clone object project from GitHub
+```
+git clone https://github.com/nelsonmonteiro/bank.git
+```
+
+### Setup project localy
+```
+cd bank/backend/
+fab local_setup
+```
+Follow the steps that will appear on your console
+
+### Run server
+```
+sh manage runserver
+```
+The server will be running on http://127.0.0.1:8000/
 
 
-## Endpoints
+## API Endpoints
 
 ### GET /api/loans
 

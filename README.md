@@ -39,6 +39,16 @@ The server will be running on http://127.0.0.1:8000/
 
 ## API Endpoints
 
+### API TOKEN
+For security reasons, you will need an Authorization token to make your API calls. You can also use your session if you are making your calls from a browser.
+
+The token key should be included in the Authorization HTTP header. The key should be prefixed by the string literal "Token", with whitespace separating the two strings. For example:
+
+Authorization: Token fd5104f5741bc8ca17e33f27c0f8f9982ac6bffb
+
+To access to your token, login at http://127.0.0.1:8000/ after setting up the project localy and have created a superuser.
+
+
 ### GET /api/loans
 
 #### Summary

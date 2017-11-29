@@ -13,7 +13,7 @@ We want you to develop an application through which a big bank can easily issue 
 
 ## Requirements
 - Python 2.7 or Python 3
-- Fabric
+- pip & virtualenv
 
 
 ## Installation
@@ -25,14 +25,14 @@ git clone https://github.com/nelsonmonteiro/bank.git
 
 #### Setup project localy
 ```
-cd bank/backend/
-fab local_setup
+cd bank/
+./setup
 ```
-Follow the steps that will appear on your console
+Follow the steps that will appear on your console to create a superuser when installation is complete.
 
 #### Run server
 ```
-sh manage runserver
+./runserver
 ```
 The server will be running on http://127.0.0.1:8000/
 

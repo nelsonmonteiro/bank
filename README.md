@@ -18,19 +18,19 @@ We want you to develop an application through which a big bank can easily issue 
 
 ## Installation
 
-### Clone object project from GitHub
+#### Clone project from GitHub
 ```
 git clone https://github.com/nelsonmonteiro/bank.git
 ```
 
-### Setup project localy
+#### Setup project localy
 ```
 cd bank/backend/
 fab local_setup
 ```
 Follow the steps that will appear on your console
 
-### Run server
+#### Run server
 ```
 sh manage runserver
 ```

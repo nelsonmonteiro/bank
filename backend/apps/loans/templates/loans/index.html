@@ -1,0 +1,169 @@
+{% extends "static/base.html" %}
+
+{% block content %}
+<div class="loans-container">
+  <div class="section small grey lighten-5">
+    <div class="container">
+      <div class="token">Your API Token: <b>{{user.auth_token}}</b></div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <h2>Current loans</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>id</th>
+            <th>date</th>
+            <th>amount</th>
+            <th>rate</th>
+            <th>term</th>
+            <th>installment</th>
+            <th>balance</th>
+            <th width="100"></th>
+          </tr>
+        </thead>
+        <tbody id="loans-container"></tbody>
+      </table>
+      <div class="loans-action-container">
+        <a id="create-new-loan" href="#create-new-loan-modal"
+           class="waves-effect waves-light btn modal-trigger">Create new loan</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Create new loan modal -->
+<div id="create-new-loan-modal" class="modal new-loan-modal">
+  <form id="create-new-loan-form">
+    <div class="modal-content">
+      <h3>Create new loan</h3>
+      <div class="input-field">
+        <input id="cnl-amount" type="text" name="amount" required />
+        <label for="cnl-amount">Amount</label>
+      </div>
+      <div class="input-field">
+        <input id="cnl-term" type="number" name="term" required />
+        <label for="cnl-term">Term</label>
+      </div>
+      <div class="input-field">
+        <input id="cnl-rate" type="text" name="rate" required />
+        <label for="cnl-rate">Rate</label>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="reset" class="modal-action modal-close waves-effect btn-flat">Cancel</button>
+      <button type="submit"class="modal-action waves-effect btn">Create</button>
+    </div>
+  </form>
+</div>
+
+
+<!-- List payments modal -->
+<div id="payments-list-modal" class="modal">
+  <div class="modal-content">
+    <h3>Payments</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>date</th>
+          <th>amount</th>
+          <th>payment</th>
+        </tr>
+      </thead>
+      <tbody id="payments-container"></tbody>
+    </table>
+  </div>
+  <div class="modal-footer">
+    <button id="new-payment-btn" class="modal-action waves-effect btn-flat">Create new payment</button>
+    <button class="modal-action modal-close waves-effect btn">Close</button>
+  </div>
+</div>
+
+
+<!-- new payments modal -->
+<div id="new-payment-modal" class="modal new-loan-modal">
+ <form id="create-new-payment-form">
+   <div class="modal-content">
+      <div class="row">
+        <div class="col s12">
+          <h3>New payment</h3>
+          <div class="input-field">
+            <input id="cnp-amount" type="text" name="amount" required />
+            <label for="cnp-amount">Amount</label>
+          </div>
+        </div>
+        <div class="col s4">
+          <label>
+            <input name="payment" type="radio" checked value="made" />
+            <span>Made</span>
+          </label>
+        </div>
+        <div class="col s4">
+          <label>
+            <input name="payment" type="radio" value="missed" />
+            <span>Missed</span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="reset" class="modal-action modal-close waves-effect btn-flat">Cancel</button>
+      <button type="submit"class="modal-action waves-effect btn">Create</button>
+    </div>
+ </form>
+</div>
+
+<!-- messages modal -->
+<div id="messages-modal" class="modal new-loan-modal">
+   <div class="modal-content">
+      <div class="row">
+        <div class="col s12">
+          <h3 id="message-title"></h3>
+          <p id="message-text"></p>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="modal-action modal-close waves-effect btn-flat">Close</button>
+    </div>
+</div>
+{% endblock %}
+
+
+{% block scripts %}
+<script id="loan-template" type="text/html">
+  <tr>
+    <td><%= id %></td>
+    <td><%= moment(date).format('YYYY-MM-DD') %></td>
+    <td><%= amount + '€' %></td>
+    <td><%= rate + '%' %></td>
+    <td><%= term %></td>
+    <td><%= installment + '€' %></td>
+    <td><%= balance + '€' %></td>
+    <td>
+      <a class="btn-floating view-payments" data-loan-id="<%= id %>"><i class="material-icons">list</i></a>
+      <a class="btn-floating new-payment" data-loan-id="<%= id %>"><i class="material-icons">payment</i></a>
+    </td>
+  </tr>
+</script>
+
+<script id="payment-template" type="text/html">
+  <tr>
+    <td><%= id %></td>
+    <td><%= moment(date).format('YYYY-MM-DD') %></td>
+    <td><%= amount + '€' %></td>
+    <td><%= payment %></td>
+    <td>
+      <a class="btn-floating view-payments" data-loan-id="<%= id %>"><i class="material-icons">list</i></a>
+    </td>
+  </tr>
+</script>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.3/moment.min.js"></script>
+<script src="{{STATIC_URL}}js/loans.js"></script>
+{% endblock %}

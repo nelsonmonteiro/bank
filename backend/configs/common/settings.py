@@ -21,6 +21,7 @@ ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
 # PROJECT DEFINITIONS
 PROJECT_SITE_NAME = 'Software Engineer Challenge'
 PROJECT_DOMAIN = 'http://127.0.0.1:8000'
+LOGIN_REDIRECT_URL = '/'
 
 #AUTH_USER_MODEL = 'users.User'
 

@@ -60,7 +60,7 @@ class Payment(BaseModel):
     ))
 
     loan = models.ForeignKey(Loan, related_name='payments')
-    payment = models.CharField(max_length=5, choices=STATUS_TYPES.get_choices())
+    payment = models.CharField(max_length=6, choices=STATUS_TYPES.get_choices())
     amount = models.FloatField()
     date = models.DateTimeField()
 
@@ -74,4 +74,4 @@ class Payment(BaseModel):
         loan.update_balance()
 
     def __str__(self):
-        return 'Payment %s: %s (%s)' % (self.id, self.amount, self.get_status_display())
+        return 'Payment %s: %s (%s)' % (self.id, self.amount, self.get_payment_display())

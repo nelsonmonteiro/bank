@@ -1,15 +1,16 @@
 from django.conf.urls import include, url
-from django.views.generic import TemplateView
+from django.views.generic import RedirectView
 from django.contrib import admin
 from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    url(r'^$', TemplateView.as_view(template_name='static/home.html')),
+    url(r'^$', RedirectView.as_view(url='/loans/')),
     url(r'^admin/', include(admin.site.urls)),
+    url('^accounts/', include('django.contrib.auth.urls')),
 
-    # FRONT-END
-    # url(r'^loans/', include('apps.loans.urls.frontend')),
+    # HTML
+    url(r'^loans/', include('apps.loans.urls.html')),
 
     # API
     url(r'^api/loans/', include('apps.loans.urls.api')),

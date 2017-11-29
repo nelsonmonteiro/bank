@@ -12,6 +12,13 @@ $(document).ready(function(){
   });
 });
 
+function getFormData(formId) {
+  return $(formId).serializeArray().reduce(function(obj, item) {
+    obj[item.name] = item.value;
+    return obj;
+  }, {});
+}
+
 function scrollToDiv(divId, offset, duration) {
   $('html, body').animate({
     scrollTop: $(divId).offset().top - (offset || 0)

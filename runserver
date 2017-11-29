@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd ./backend
+source ./env/bin/activate
+sh manage runserver

@@ -36,7 +36,7 @@ class PaymentSerializer(serializers.ModelSerializer):
             if data['payment'] == Payment.STATUS_TYPES.MADE and current.payment == Payment.STATUS_TYPES.MISSED:
                 current.delete()
             else:
-                raise serializers.ValidationError('A payment have been made already for this account.')
+                raise serializers.ValidationError('A payment have been made already for this month.')
 
         data['loan_id'] = loan.id
         return data

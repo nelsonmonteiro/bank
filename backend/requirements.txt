@@ -1,0 +1,33 @@
+# Core
+django==1.11.7
+setuptools
+python-dateutil
+Fabric3
+gunicorn
+django-annoying
+django-tinymce
+
+# Rest framework
+djangorestframework
+django-cors-headers
+
+# Database
+psycopg2
+django-redis
+
+# S3 Storage
+django-filebrowser-no-grappelli
+boto
+
+# Media
+pillow
+django-storages
+django-pipeline
+sorl-thumbnail
+
+
+# Admin
+django-admin-shortcuts
+
+# Dev and other utils
+ipython

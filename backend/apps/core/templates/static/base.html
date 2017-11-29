@@ -1,0 +1,30 @@
+{% load pipeline %}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Nelson Monteiro{% block subtitle %}{% endblock %}{% endblock %}</title>
+  <link href="/static/img/icon/favicon-144x144.png" rel="icon"  sizes="144x144" type="image/png">
+  <link href="//cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.1/css/materialize.min.css" rel="stylesheet">
+  <link href="//fonts.googleapis.com/css?family=Amatic+SC:400,700|Roboto:100,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+  {% stylesheet 'theme' %}
+
+  {% block style %}{% endblock %}
+</head>
+
+<body>
+  {% block content %}{% endblock %}
+
+  <script src="//code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.1/js/materialize.min.js"></script>
+  <script src="//use.fontawesome.com/28e7f95064.js"></script>
+  {% csrf_token %}<script type="text/javascript">var csrftoken = $('[name=csrfmiddlewaretoken]').val();</script>
+  {% javascript 'helpers' %}
+
+  {% block scripts %}{% endblock %}
+</body>
+</html>

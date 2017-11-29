@@ -1,0 +1,89 @@
+<div class="landing-page">
+    <div pageScroll href="#top" [pageScrollDuration]="250"
+         [pageScrollInterruptible]="false" (pageScrollFinish)="scrollPageFinished()"></div>
+    <a [ngClass]="{transparent: activeSlide == 0 || slideOnTransition, white: activeSlide == 4}"
+        class="logo top-corner" *ngIf="!isMobile">&nbsp;</a>
+    <a [ngClass]="{transparent: slideOnTransition, black: activeSlide > 0 && activeSlide < 4}"
+        class="side-nav-button" *ngIf="!isMobile" (click)="sideNav.toggle()"><i class="fa fa-navicon"></i></a>
+    <a class="arrow top" (click)="scrollPageUp()" *ngIf="!isMobile && activeSlide > 0"
+        [ngClass]="{'black': activeSlide > 0 && activeSlide < 4}">
+        <i class="fa fa-3x fa-angle-up"></i>
+    </a>
+    <a class="arrow bottom" (click)="scrollPageDown()" *ngIf="!isMobile && activeSlide < totalSlides -1"
+        [ngClass]="{'black': activeSlide > 0 && activeSlide < 4}">
+        <i class="fa fa-3x fa-angle-down"></i>
+    </a>
+    <div id="top" class="section bgActive top" window-height [min]="true">
+        <div class="header">
+            <div class="logo-container">
+                <a class="logo big white">&nbsp;</a>
+            </div>
+            <div class="headline-container">
+                <h1>Let the bots code for you</h1>
+                <p>and implement your ideas within hours, <br>not weeks or months</p>
+            </div>
+        </div>
+    </div>
+    <div id="past" class="section bgActive past" window-height [min]="true">
+        <div class="text-container">
+            <h2>Management Dilemma</h2>
+            <p>
+                Do you often feel under pressure to choose between the quality of the product,
+                the time required for development and total cost? Have you ever wondered, why software
+                development seems so complicated and takes so long to build? Are you dependent on developers
+                to make even small changes?
+            </p>
+        </div>
+    </div>
+    <div id="future" class="section future" window-height [min]="true">
+        <div class="text-container">
+            <h2>New era of<br>software development</h2>
+            <p>
+                Not anymore. At affordable price, DJINA will replace most of the engineering work with bots,
+                generating the finest quality code, only used by the best developers in a fraction of time.
+            </p>
+            <p>
+                The AI will ask several questions about your project and it’s goals, and it will use the answers
+                to predict and create your website and mobile apps. After this foundation, the user can easily
+                edit them through a visual interface. No coding will be necessary, except for specific tasks,
+                making software development accessible to everyone.
+            </p>
+        </div>
+    </div>
+    <div id="founder" class="section founder" window-height [min]="true">
+        <div class="text-container">
+            <p class="italic">
+                “Over the years I have worked with several entrepreneurs and creative minds, who expressed unique
+                and innovative ideas that have often been put aside and forgotten, as a result of the immense
+                budget necessary for their production. It is not unusual for even a simple prototype to take
+                considerable amount of time, often many months, before it can be tested. It’s time to end this.
+                We need the success of an idea to be independent of the developer’s quality, time restrains and
+                resources. We want an idea to be implemented within hours, not weeks or months. We want to make
+                software development accessible to all."
+            </p>
+            <p class="italic">
+                “The future is going to be dominated by mass automation and regular usage of bots in every single
+                field of industry and engineering, including software development. Our team is working on transforming
+                this future vision into the today’s reality.”
+            </p>
+            <p class="info">Nelson Monteiro - Founder</p>
+        </div>
+    </div>
+    <div id="actions" class="section actions" window-height [min]="true">
+        <div class="text-container white">
+            <h2>Be part of this project</h2>
+            <div class="actions-group">
+                <h3>Do you have a keen eye to spot issues?</h3>
+                <a href="mailto:testers@nelsonmonteiro.eu">"Of course! Let me test the system."</a>
+            </div>
+            <div class="actions-group">
+                <h3>Do you have the skills to change the world?</h3>
+                <a href="mailto:jobs@nelsonmonteiro.eu">"Oh yes! I have been waiting for it."</a>
+            </div>
+            <div class="actions-group">
+                <h3>Are you an investor?</h3>
+                <a href="mailto:investors@nelsonmonteiro.eu">"Say no more! Let me embrace the future."</a>
+            </div>
+        </div>
+    </div>
+</div>

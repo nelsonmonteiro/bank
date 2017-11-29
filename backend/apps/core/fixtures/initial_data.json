@@ -1,0 +1,2180 @@
+[
+  {
+    "pk": 0,
+    "model": "core.Country",
+    "fields": {
+      "code": "AF",
+      "dial_code": "+93",
+      "name": "Afghanistan"
+    }
+  },
+  {
+    "pk": 1,
+    "model": "core.Country",
+    "fields": {
+      "code": "AX",
+      "dial_code": "+358",
+      "name": "Aland Islands"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "core.Country",
+    "fields": {
+      "code": "AL",
+      "dial_code": "+355",
+      "name": "Albania"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "core.Country",
+    "fields": {
+      "code": "DZ",
+      "dial_code": "+213",
+      "name": "Algeria"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "core.Country",
+    "fields": {
+      "code": "AS",
+      "dial_code": "+1684",
+      "name": "AmericanSamoa"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "core.Country",
+    "fields": {
+      "code": "AD",
+      "dial_code": "+376",
+      "name": "Andorra"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "core.Country",
+    "fields": {
+      "code": "AO",
+      "dial_code": "+244",
+      "name": "Angola"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "core.Country",
+    "fields": {
+      "code": "AI",
+      "dial_code": "+1264",
+      "name": "Anguilla"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "core.Country",
+    "fields": {
+      "code": "AQ",
+      "dial_code": "+672",
+      "name": "Antarctica"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "core.Country",
+    "fields": {
+      "code": "AG",
+      "dial_code": "+1268",
+      "name": "Antigua and Barbuda"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "core.Country",
+    "fields": {
+      "code": "AR",
+      "dial_code": "+54",
+      "name": "Argentina"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "core.Country",
+    "fields": {
+      "code": "AM",
+      "dial_code": "+374",
+      "name": "Armenia"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "core.Country",
+    "fields": {
+      "code": "AW",
+      "dial_code": "+297",
+      "name": "Aruba"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "core.Country",
+    "fields": {
+      "code": "AU",
+      "dial_code": "+61",
+      "name": "Australia"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "core.Country",
+    "fields": {
+      "code": "AT",
+      "dial_code": "+43",
+      "name": "Austria"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "core.Country",
+    "fields": {
+      "code": "AZ",
+      "dial_code": "+994",
+      "name": "Azerbaijan"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "core.Country",
+    "fields": {
+      "code": "BS",
+      "dial_code": "+1242",
+      "name": "Bahamas"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "core.Country",
+    "fields": {
+      "code": "BH",
+      "dial_code": "+973",
+      "name": "Bahrain"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "core.Country",
+    "fields": {
+      "code": "BD",
+      "dial_code": "+880",
+      "name": "Bangladesh"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "core.Country",
+    "fields": {
+      "code": "BB",
+      "dial_code": "+1246",
+      "name": "Barbados"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "core.Country",
+    "fields": {
+      "code": "BY",
+      "dial_code": "+375",
+      "name": "Belarus"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "core.Country",
+    "fields": {
+      "code": "BE",
+      "dial_code": "+32",
+      "name": "Belgium"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "core.Country",
+    "fields": {
+      "code": "BZ",
+      "dial_code": "+501",
+      "name": "Belize"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "core.Country",
+    "fields": {
+      "code": "BJ",
+      "dial_code": "+229",
+      "name": "Benin"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "core.Country",
+    "fields": {
+      "code": "BM",
+      "dial_code": "+1441",
+      "name": "Bermuda"
+    }
+  },
+  {
+    "pk": 25,
+    "model": "core.Country",
+    "fields": {
+      "code": "BT",
+      "dial_code": "+975",
+      "name": "Bhutan"
+    }
+  },
+  {
+    "pk": 26,
+    "model": "core.Country",
+    "fields": {
+      "code": "BO",
+      "dial_code": "+591",
+      "name": "Bolivia"
+    }
+  },
+  {
+    "pk": 27,
+    "model": "core.Country",
+    "fields": {
+      "code": "BA",
+      "dial_code": "+387",
+      "name": "Bosnia and Herzegovina"
+    }
+  },
+  {
+    "pk": 28,
+    "model": "core.Country",
+    "fields": {
+      "code": "BW",
+      "dial_code": "+267",
+      "name": "Botswana"
+    }
+  },
+  {
+    "pk": 29,
+    "model": "core.Country",
+    "fields": {
+      "code": "BR",
+      "dial_code": "+55",
+      "name": "Brazil"
+    }
+  },
+  {
+    "pk": 30,
+    "model": "core.Country",
+    "fields": {
+      "code": "IO",
+      "dial_code": "+246",
+      "name": "British Indian Ocean Territory"
+    }
+  },
+  {
+    "pk": 31,
+    "model": "core.Country",
+    "fields": {
+      "code": "BN",
+      "dial_code": "+673",
+      "name": "Brunei Darussalam"
+    }
+  },
+  {
+    "pk": 32,
+    "model": "core.Country",
+    "fields": {
+      "code": "BG",
+      "dial_code": "+359",
+      "name": "Bulgaria"
+    }
+  },
+  {
+    "pk": 33,
+    "model": "core.Country",
+    "fields": {
+      "code": "BF",
+      "dial_code": "+226",
+      "name": "Burkina Faso"
+    }
+  },
+  {
+    "pk": 34,
+    "model": "core.Country",
+    "fields": {
+      "code": "BI",
+      "dial_code": "+257",
+      "name": "Burundi"
+    }
+  },
+  {
+    "pk": 35,
+    "model": "core.Country",
+    "fields": {
+      "code": "KH",
+      "dial_code": "+855",
+      "name": "Cambodia"
+    }
+  },
+  {
+    "pk": 36,
+    "model": "core.Country",
+    "fields": {
+      "code": "CM",
+      "dial_code": "+237",
+      "name": "Cameroon"
+    }
+  },
+  {
+    "pk": 37,
+    "model": "core.Country",
+    "fields": {
+      "code": "CA",
+      "dial_code": "+1",
+      "name": "Canada"
+    }
+  },
+  {
+    "pk": 38,
+    "model": "core.Country",
+    "fields": {
+      "code": "CV",
+      "dial_code": "+238",
+      "name": "Cape Verde"
+    }
+  },
+  {
+    "pk": 39,
+    "model": "core.Country",
+    "fields": {
+      "code": "KY",
+      "dial_code": "+ 345",
+      "name": "Cayman Islands"
+    }
+  },
+  {
+    "pk": 40,
+    "model": "core.Country",
+    "fields": {
+      "code": "CF",
+      "dial_code": "+236",
+      "name": "Central African Republic"
+    }
+  },
+  {
+    "pk": 41,
+    "model": "core.Country",
+    "fields": {
+      "code": "TD",
+      "dial_code": "+235",
+      "name": "Chad"
+    }
+  },
+  {
+    "pk": 42,
+    "model": "core.Country",
+    "fields": {
+      "code": "CL",
+      "dial_code": "+56",
+      "name": "Chile"
+    }
+  },
+  {
+    "pk": 43,
+    "model": "core.Country",
+    "fields": {
+      "code": "CN",
+      "dial_code": "+86",
+      "name": "China"
+    }
+  },
+  {
+    "pk": 44,
+    "model": "core.Country",
+    "fields": {
+      "code": "CX",
+      "dial_code": "+61",
+      "name": "Christmas Island"
+    }
+  },
+  {
+    "pk": 45,
+    "model": "core.Country",
+    "fields": {
+      "code": "CC",
+      "dial_code": "+61",
+      "name": "Cocos (Keeling) Islands"
+    }
+  },
+  {
+    "pk": 46,
+    "model": "core.Country",
+    "fields": {
+      "code": "CO",
+      "dial_code": "+57",
+      "name": "Colombia"
+    }
+  },
+  {
+    "pk": 47,
+    "model": "core.Country",
+    "fields": {
+      "code": "KM",
+      "dial_code": "+269",
+      "name": "Comoros"
+    }
+  },
+  {
+    "pk": 48,
+    "model": "core.Country",
+    "fields": {
+      "code": "CG",
+      "dial_code": "+242",
+      "name": "Congo"
+    }
+  },
+  {
+    "pk": 49,
+    "model": "core.Country",
+    "fields": {
+      "code": "CD",
+      "dial_code": "+243",
+      "name": "Congo, The Democratic Republic of the Congo"
+    }
+  },
+  {
+    "pk": 50,
+    "model": "core.Country",
+    "fields": {
+      "code": "CK",
+      "dial_code": "+682",
+      "name": "Cook Islands"
+    }
+  },
+  {
+    "pk": 51,
+    "model": "core.Country",
+    "fields": {
+      "code": "CR",
+      "dial_code": "+506",
+      "name": "Costa Rica"
+    }
+  },
+  {
+    "pk": 52,
+    "model": "core.Country",
+    "fields": {
+      "code": "CI",
+      "dial_code": "+225",
+      "name": "Cote d'Ivoire"
+    }
+  },
+  {
+    "pk": 53,
+    "model": "core.Country",
+    "fields": {
+      "code": "HR",
+      "dial_code": "+385",
+      "name": "Croatia"
+    }
+  },
+  {
+    "pk": 54,
+    "model": "core.Country",
+    "fields": {
+      "code": "CU",
+      "dial_code": "+53",
+      "name": "Cuba"
+    }
+  },
+  {
+    "pk": 55,
+    "model": "core.Country",
+    "fields": {
+      "code": "CY",
+      "dial_code": "+357",
+      "name": "Cyprus"
+    }
+  },
+  {
+    "pk": 56,
+    "model": "core.Country",
+    "fields": {
+      "code": "CZ",
+      "dial_code": "+420",
+      "name": "Czech Republic"
+    }
+  },
+  {
+    "pk": 57,
+    "model": "core.Country",
+    "fields": {
+      "code": "DK",
+      "dial_code": "+45",
+      "name": "Denmark"
+    }
+  },
+  {
+    "pk": 58,
+    "model": "core.Country",
+    "fields": {
+      "code": "DJ",
+      "dial_code": "+253",
+      "name": "Djibouti"
+    }
+  },
+  {
+    "pk": 59,
+    "model": "core.Country",
+    "fields": {
+      "code": "DM",
+      "dial_code": "+1767",
+      "name": "Dominica"
+    }
+  },
+  {
+    "pk": 60,
+    "model": "core.Country",
+    "fields": {
+      "code": "DO",
+      "dial_code": "+1849",
+      "name": "Dominican Republic"
+    }
+  },
+  {
+    "pk": 61,
+    "model": "core.Country",
+    "fields": {
+      "code": "EC",
+      "dial_code": "+593",
+      "name": "Ecuador"
+    }
+  },
+  {
+    "pk": 62,
+    "model": "core.Country",
+    "fields": {
+      "code": "EG",
+      "dial_code": "+20",
+      "name": "Egypt"
+    }
+  },
+  {
+    "pk": 63,
+    "model": "core.Country",
+    "fields": {
+      "code": "SV",
+      "dial_code": "+503",
+      "name": "El Salvador"
+    }
+  },
+  {
+    "pk": 64,
+    "model": "core.Country",
+    "fields": {
+      "code": "GQ",
+      "dial_code": "+240",
+      "name": "Equatorial Guinea"
+    }
+  },
+  {
+    "pk": 65,
+    "model": "core.Country",
+    "fields": {
+      "code": "ER",
+      "dial_code": "+291",
+      "name": "Eritrea"
+    }
+  },
+  {
+    "pk": 66,
+    "model": "core.Country",
+    "fields": {
+      "code": "EE",
+      "dial_code": "+372",
+      "name": "Estonia"
+    }
+  },
+  {
+    "pk": 67,
+    "model": "core.Country",
+    "fields": {
+      "code": "ET",
+      "dial_code": "+251",
+      "name": "Ethiopia"
+    }
+  },
+  {
+    "pk": 68,
+    "model": "core.Country",
+    "fields": {
+      "code": "FK",
+      "dial_code": "+500",
+      "name": "Falkland Islands (Malvinas)"
+    }
+  },
+  {
+    "pk": 69,
+    "model": "core.Country",
+    "fields": {
+      "code": "FO",
+      "dial_code": "+298",
+      "name": "Faroe Islands"
+    }
+  },
+  {
+    "pk": 70,
+    "model": "core.Country",
+    "fields": {
+      "code": "FJ",
+      "dial_code": "+679",
+      "name": "Fiji"
+    }
+  },
+  {
+    "pk": 71,
+    "model": "core.Country",
+    "fields": {
+      "code": "FI",
+      "dial_code": "+358",
+      "name": "Finland"
+    }
+  },
+  {
+    "pk": 72,
+    "model": "core.Country",
+    "fields": {
+      "code": "FR",
+      "dial_code": "+33",
+      "name": "France"
+    }
+  },
+  {
+    "pk": 73,
+    "model": "core.Country",
+    "fields": {
+      "code": "GF",
+      "dial_code": "+594",
+      "name": "French Guiana"
+    }
+  },
+  {
+    "pk": 74,
+    "model": "core.Country",
+    "fields": {
+      "code": "PF",
+      "dial_code": "+689",
+      "name": "French Polynesia"
+    }
+  },
+  {
+    "pk": 75,
+    "model": "core.Country",
+    "fields": {
+      "code": "GA",
+      "dial_code": "+241",
+      "name": "Gabon"
+    }
+  },
+  {
+    "pk": 76,
+    "model": "core.Country",
+    "fields": {
+      "code": "GM",
+      "dial_code": "+220",
+      "name": "Gambia"
+    }
+  },
+  {
+    "pk": 77,
+    "model": "core.Country",
+    "fields": {
+      "code": "GE",
+      "dial_code": "+995",
+      "name": "Georgia"
+    }
+  },
+  {
+    "pk": 78,
+    "model": "core.Country",
+    "fields": {
+      "code": "DE",
+      "dial_code": "+49",
+      "name": "Germany"
+    }
+  },
+  {
+    "pk": 79,
+    "model": "core.Country",
+    "fields": {
+      "code": "GH",
+      "dial_code": "+233",
+      "name": "Ghana"
+    }
+  },
+  {
+    "pk": 80,
+    "model": "core.Country",
+    "fields": {
+      "code": "GI",
+      "dial_code": "+350",
+      "name": "Gibraltar"
+    }
+  },
+  {
+    "pk": 81,
+    "model": "core.Country",
+    "fields": {
+      "code": "GR",
+      "dial_code": "+30",
+      "name": "Greece"
+    }
+  },
+  {
+    "pk": 82,
+    "model": "core.Country",
+    "fields": {
+      "code": "GL",
+      "dial_code": "+299",
+      "name": "Greenland"
+    }
+  },
+  {
+    "pk": 83,
+    "model": "core.Country",
+    "fields": {
+      "code": "GD",
+      "dial_code": "+1473",
+      "name": "Grenada"
+    }
+  },
+  {
+    "pk": 84,
+    "model": "core.Country",
+    "fields": {
+      "code": "GP",
+      "dial_code": "+590",
+      "name": "Guadeloupe"
+    }
+  },
+  {
+    "pk": 85,
+    "model": "core.Country",
+    "fields": {
+      "code": "GU",
+      "dial_code": "+1671",
+      "name": "Guam"
+    }
+  },
+  {
+    "pk": 86,
+    "model": "core.Country",
+    "fields": {
+      "code": "GT",
+      "dial_code": "+502",
+      "name": "Guatemala"
+    }
+  },
+  {
+    "pk": 87,
+    "model": "core.Country",
+    "fields": {
+      "code": "GG",
+      "dial_code": "+44",
+      "name": "Guernsey"
+    }
+  },
+  {
+    "pk": 88,
+    "model": "core.Country",
+    "fields": {
+      "code": "GN",
+      "dial_code": "+224",
+      "name": "Guinea"
+    }
+  },
+  {
+    "pk": 89,
+    "model": "core.Country",
+    "fields": {
+      "code": "GW",
+      "dial_code": "+245",
+      "name": "Guinea-Bissau"
+    }
+  },
+  {
+    "pk": 90,
+    "model": "core.Country",
+    "fields": {
+      "code": "GY",
+      "dial_code": "+592",
+      "name": "Guyana"
+    }
+  },
+  {
+    "pk": 91,
+    "model": "core.Country",
+    "fields": {
+      "code": "HT",
+      "dial_code": "+509",
+      "name": "Haiti"
+    }
+  },
+  {
+    "pk": 92,
+    "model": "core.Country",
+    "fields": {
+      "code": "VA",
+      "dial_code": "+379",
+      "name": "Holy See (Vatican City State)"
+    }
+  },
+  {
+    "pk": 93,
+    "model": "core.Country",
+    "fields": {
+      "code": "HN",
+      "dial_code": "+504",
+      "name": "Honduras"
+    }
+  },
+  {
+    "pk": 94,
+    "model": "core.Country",
+    "fields": {
+      "code": "HK",
+      "dial_code": "+852",
+      "name": "Hong Kong"
+    }
+  },
+  {
+    "pk": 95,
+    "model": "core.Country",
+    "fields": {
+      "code": "HU",
+      "dial_code": "+36",
+      "name": "Hungary"
+    }
+  },
+  {
+    "pk": 96,
+    "model": "core.Country",
+    "fields": {
+      "code": "IS",
+      "dial_code": "+354",
+      "name": "Iceland"
+    }
+  },
+  {
+    "pk": 97,
+    "model": "core.Country",
+    "fields": {
+      "code": "IN",
+      "dial_code": "+91",
+      "name": "India"
+    }
+  },
+  {
+    "pk": 98,
+    "model": "core.Country",
+    "fields": {
+      "code": "ID",
+      "dial_code": "+62",
+      "name": "Indonesia"
+    }
+  },
+  {
+    "pk": 99,
+    "model": "core.Country",
+    "fields": {
+      "code": "IR",
+      "dial_code": "+98",
+      "name": "Iran"
+    }
+  },
+  {
+    "pk": 100,
+    "model": "core.Country",
+    "fields": {
+      "code": "IQ",
+      "dial_code": "+964",
+      "name": "Iraq"
+    }
+  },
+  {
+    "pk": 101,
+    "model": "core.Country",
+    "fields": {
+      "code": "IE",
+      "dial_code": "+353",
+      "name": "Ireland"
+    }
+  },
+  {
+    "pk": 102,
+    "model": "core.Country",
+    "fields": {
+      "code": "IM",
+      "dial_code": "+44",
+      "name": "Isle of Man"
+    }
+  },
+  {
+    "pk": 103,
+    "model": "core.Country",
+    "fields": {
+      "code": "IL",
+      "dial_code": "+972",
+      "name": "Israel"
+    }
+  },
+  {
+    "pk": 104,
+    "model": "core.Country",
+    "fields": {
+      "code": "IT",
+      "dial_code": "+39",
+      "name": "Italy"
+    }
+  },
+  {
+    "pk": 105,
+    "model": "core.Country",
+    "fields": {
+      "code": "JM",
+      "dial_code": "+1876",
+      "name": "Jamaica"
+    }
+  },
+  {
+    "pk": 106,
+    "model": "core.Country",
+    "fields": {
+      "code": "JP",
+      "dial_code": "+81",
+      "name": "Japan"
+    }
+  },
+  {
+    "pk": 107,
+    "model": "core.Country",
+    "fields": {
+      "code": "JE",
+      "dial_code": "+44",
+      "name": "Jersey"
+    }
+  },
+  {
+    "pk": 108,
+    "model": "core.Country",
+    "fields": {
+      "code": "JO",
+      "dial_code": "+962",
+      "name": "Jordan"
+    }
+  },
+  {
+    "pk": 109,
+    "model": "core.Country",
+    "fields": {
+      "code": "KZ",
+      "dial_code": "+7",
+      "name": "Kazakhstan"
+    }
+  },
+  {
+    "pk": 110,
+    "model": "core.Country",
+    "fields": {
+      "code": "KE",
+      "dial_code": "+254",
+      "name": "Kenya"
+    }
+  },
+  {
+    "pk": 111,
+    "model": "core.Country",
+    "fields": {
+      "code": "KI",
+      "dial_code": "+686",
+      "name": "Kiribati"
+    }
+  },
+  {
+    "pk": 112,
+    "model": "core.Country",
+    "fields": {
+      "code": "KP",
+      "dial_code": "+850",
+      "name": "North Korea"
+    }
+  },
+  {
+    "pk": 113,
+    "model": "core.Country",
+    "fields": {
+      "code": "KR",
+      "dial_code": "+82",
+      "name": "South Korea"
+    }
+  },
+  {
+    "pk": 114,
+    "model": "core.Country",
+    "fields": {
+      "code": "KW",
+      "dial_code": "+965",
+      "name": "Kuwait"
+    }
+  },
+  {
+    "pk": 115,
+    "model": "core.Country",
+    "fields": {
+      "code": "KG",
+      "dial_code": "+996",
+      "name": "Kyrgyzstan"
+    }
+  },
+  {
+    "pk": 116,
+    "model": "core.Country",
+    "fields": {
+      "code": "LA",
+      "dial_code": "+856",
+      "name": "Laos"
+    }
+  },
+  {
+    "pk": 117,
+    "model": "core.Country",
+    "fields": {
+      "code": "LV",
+      "dial_code": "+371",
+      "name": "Latvia"
+    }
+  },
+  {
+    "pk": 118,
+    "model": "core.Country",
+    "fields": {
+      "code": "LB",
+      "dial_code": "+961",
+      "name": "Lebanon"
+    }
+  },
+  {
+    "pk": 119,
+    "model": "core.Country",
+    "fields": {
+      "code": "LS",
+      "dial_code": "+266",
+      "name": "Lesotho"
+    }
+  },
+  {
+    "pk": 120,
+    "model": "core.Country",
+    "fields": {
+      "code": "LR",
+      "dial_code": "+231",
+      "name": "Liberia"
+    }
+  },
+  {
+    "pk": 121,
+    "model": "core.Country",
+    "fields": {
+      "code": "LY",
+      "dial_code": "+218",
+      "name": "Libya"
+    }
+  },
+  {
+    "pk": 122,
+    "model": "core.Country",
+    "fields": {
+      "code": "LI",
+      "dial_code": "+423",
+      "name": "Liechtenstein"
+    }
+  },
+  {
+    "pk": 123,
+    "model": "core.Country",
+    "fields": {
+      "code": "LT",
+      "dial_code": "+370",
+      "name": "Lithuania"
+    }
+  },
+  {
+    "pk": 124,
+    "model": "core.Country",
+    "fields": {
+      "code": "LU",
+      "dial_code": "+352",
+      "name": "Luxembourg"
+    }
+  },
+  {
+    "pk": 125,
+    "model": "core.Country",
+    "fields": {
+      "code": "MO",
+      "dial_code": "+853",
+      "name": "Macao"
+    }
+  },
+  {
+    "pk": 126,
+    "model": "core.Country",
+    "fields": {
+      "code": "MK",
+      "dial_code": "+389",
+      "name": "Macedonia"
+    }
+  },
+  {
+    "pk": 127,
+    "model": "core.Country",
+    "fields": {
+      "code": "MG",
+      "dial_code": "+261",
+      "name": "Madagascar"
+    }
+  },
+  {
+    "pk": 128,
+    "model": "core.Country",
+    "fields": {
+      "code": "MW",
+      "dial_code": "+265",
+      "name": "Malawi"
+    }
+  },
+  {
+    "pk": 129,
+    "model": "core.Country",
+    "fields": {
+      "code": "MY",
+      "dial_code": "+60",
+      "name": "Malaysia"
+    }
+  },
+  {
+    "pk": 130,
+    "model": "core.Country",
+    "fields": {
+      "code": "MV",
+      "dial_code": "+960",
+      "name": "Maldives"
+    }
+  },
+  {
+    "pk": 131,
+    "model": "core.Country",
+    "fields": {
+      "code": "ML",
+      "dial_code": "+223",
+      "name": "Mali"
+    }
+  },
+  {
+    "pk": 132,
+    "model": "core.Country",
+    "fields": {
+      "code": "MT",
+      "dial_code": "+356",
+      "name": "Malta"
+    }
+  },
+  {
+    "pk": 133,
+    "model": "core.Country",
+    "fields": {
+      "code": "MH",
+      "dial_code": "+692",
+      "name": "Marshall Islands"
+    }
+  },
+  {
+    "pk": 134,
+    "model": "core.Country",
+    "fields": {
+      "code": "MQ",
+      "dial_code": "+596",
+      "name": "Martinique"
+    }
+  },
+  {
+    "pk": 135,
+    "model": "core.Country",
+    "fields": {
+      "code": "MR",
+      "dial_code": "+222",
+      "name": "Mauritania"
+    }
+  },
+  {
+    "pk": 136,
+    "model": "core.Country",
+    "fields": {
+      "code": "MU",
+      "dial_code": "+230",
+      "name": "Mauritius"
+    }
+  },
+  {
+    "pk": 137,
+    "model": "core.Country",
+    "fields": {
+      "code": "YT",
+      "dial_code": "+262",
+      "name": "Mayotte"
+    }
+  },
+  {
+    "pk": 138,
+    "model": "core.Country",
+    "fields": {
+      "code": "MX",
+      "dial_code": "+52",
+      "name": "Mexico"
+    }
+  },
+  {
+    "pk": 139,
+    "model": "core.Country",
+    "fields": {
+      "code": "FM",
+      "dial_code": "+691",
+      "name": "Micronesia"
+    }
+  },
+  {
+    "pk": 140,
+    "model": "core.Country",
+    "fields": {
+      "code": "MD",
+      "dial_code": "+373",
+      "name": "Moldova"
+    }
+  },
+  {
+    "pk": 141,
+    "model": "core.Country",
+    "fields": {
+      "code": "MC",
+      "dial_code": "+377",
+      "name": "Monaco"
+    }
+  },
+  {
+    "pk": 142,
+    "model": "core.Country",
+    "fields": {
+      "code": "MN",
+      "dial_code": "+976",
+      "name": "Mongolia"
+    }
+  },
+  {
+    "pk": 143,
+    "model": "core.Country",
+    "fields": {
+      "code": "ME",
+      "dial_code": "+382",
+      "name": "Montenegro"
+    }
+  },
+  {
+    "pk": 144,
+    "model": "core.Country",
+    "fields": {
+      "code": "MS",
+      "dial_code": "+1664",
+      "name": "Montserrat"
+    }
+  },
+  {
+    "pk": 145,
+    "model": "core.Country",
+    "fields": {
+      "code": "MA",
+      "dial_code": "+212",
+      "name": "Morocco"
+    }
+  },
+  {
+    "pk": 146,
+    "model": "core.Country",
+    "fields": {
+      "code": "MZ",
+      "dial_code": "+258",
+      "name": "Mozambique"
+    }
+  },
+  {
+    "pk": 147,
+    "model": "core.Country",
+    "fields": {
+      "code": "MM",
+      "dial_code": "+95",
+      "name": "Myanmar"
+    }
+  },
+  {
+    "pk": 148,
+    "model": "core.Country",
+    "fields": {
+      "code": "NA",
+      "dial_code": "+264",
+      "name": "Namibia"
+    }
+  },
+  {
+    "pk": 149,
+    "model": "core.Country",
+    "fields": {
+      "code": "NR",
+      "dial_code": "+674",
+      "name": "Nauru"
+    }
+  },
+  {
+    "pk": 150,
+    "model": "core.Country",
+    "fields": {
+      "code": "NP",
+      "dial_code": "+977",
+      "name": "Nepal"
+    }
+  },
+  {
+    "pk": 151,
+    "model": "core.Country",
+    "fields": {
+      "code": "NL",
+      "dial_code": "+31",
+      "name": "Netherlands"
+    }
+  },
+  {
+    "pk": 152,
+    "model": "core.Country",
+    "fields": {
+      "code": "AN",
+      "dial_code": "+599",
+      "name": "Netherlands Antilles"
+    }
+  },
+  {
+    "pk": 153,
+    "model": "core.Country",
+    "fields": {
+      "code": "NC",
+      "dial_code": "+687",
+      "name": "New Caledonia"
+    }
+  },
+  {
+    "pk": 154,
+    "model": "core.Country",
+    "fields": {
+      "code": "NZ",
+      "dial_code": "+64",
+      "name": "New Zealand"
+    }
+  },
+  {
+    "pk": 155,
+    "model": "core.Country",
+    "fields": {
+      "code": "NI",
+      "dial_code": "+505",
+      "name": "Nicaragua"
+    }
+  },
+  {
+    "pk": 156,
+    "model": "core.Country",
+    "fields": {
+      "code": "NE",
+      "dial_code": "+227",
+      "name": "Niger"
+    }
+  },
+  {
+    "pk": 157,
+    "model": "core.Country",
+    "fields": {
+      "code": "NG",
+      "dial_code": "+234",
+      "name": "Nigeria"
+    }
+  },
+  {
+    "pk": 158,
+    "model": "core.Country",
+    "fields": {
+      "code": "NU",
+      "dial_code": "+683",
+      "name": "Niue"
+    }
+  },
+  {
+    "pk": 159,
+    "model": "core.Country",
+    "fields": {
+      "code": "NF",
+      "dial_code": "+672",
+      "name": "Norfolk Island"
+    }
+  },
+  {
+    "pk": 160,
+    "model": "core.Country",
+    "fields": {
+      "code": "MP",
+      "dial_code": "+1670",
+      "name": "Northern Mariana Islands"
+    }
+  },
+  {
+    "pk": 161,
+    "model": "core.Country",
+    "fields": {
+      "code": "NO",
+      "dial_code": "+47",
+      "name": "Norway"
+    }
+  },
+  {
+    "pk": 162,
+    "model": "core.Country",
+    "fields": {
+      "code": "OM",
+      "dial_code": "+968",
+      "name": "Oman"
+    }
+  },
+  {
+    "pk": 163,
+    "model": "core.Country",
+    "fields": {
+      "code": "PK",
+      "dial_code": "+92",
+      "name": "Pakistan"
+    }
+  },
+  {
+    "pk": 164,
+    "model": "core.Country",
+    "fields": {
+      "code": "PW",
+      "dial_code": "+680",
+      "name": "Palau"
+    }
+  },
+  {
+    "pk": 165,
+    "model": "core.Country",
+    "fields": {
+      "code": "PS",
+      "dial_code": "+970",
+      "name": "Palestine"
+    }
+  },
+  {
+    "pk": 166,
+    "model": "core.Country",
+    "fields": {
+      "code": "PA",
+      "dial_code": "+507",
+      "name": "Panama"
+    }
+  },
+  {
+    "pk": 167,
+    "model": "core.Country",
+    "fields": {
+      "code": "PG",
+      "dial_code": "+675",
+      "name": "Papua New Guinea"
+    }
+  },
+  {
+    "pk": 168,
+    "model": "core.Country",
+    "fields": {
+      "code": "PY",
+      "dial_code": "+595",
+      "name": "Paraguay"
+    }
+  },
+  {
+    "pk": 169,
+    "model": "core.Country",
+    "fields": {
+      "code": "PE",
+      "dial_code": "+51",
+      "name": "Peru"
+    }
+  },
+  {
+    "pk": 170,
+    "model": "core.Country",
+    "fields": {
+      "code": "PH",
+      "dial_code": "+63",
+      "name": "Philippines"
+    }
+  },
+  {
+    "pk": 171,
+    "model": "core.Country",
+    "fields": {
+      "code": "PN",
+      "dial_code": "+64",
+      "name": "Pitcairn"
+    }
+  },
+  {
+    "pk": 172,
+    "model": "core.Country",
+    "fields": {
+      "code": "PL",
+      "dial_code": "+48",
+      "name": "Poland"
+    }
+  },
+  {
+    "pk": 173,
+    "model": "core.Country",
+    "fields": {
+      "code": "PT",
+      "dial_code": "+351",
+      "name": "Portugal"
+    }
+  },
+  {
+    "pk": 174,
+    "model": "core.Country",
+    "fields": {
+      "code": "PR",
+      "dial_code": "+1939",
+      "name": "Puerto Rico"
+    }
+  },
+  {
+    "pk": 175,
+    "model": "core.Country",
+    "fields": {
+      "code": "QA",
+      "dial_code": "+974",
+      "name": "Qatar"
+    }
+  },
+  {
+    "pk": 176,
+    "model": "core.Country",
+    "fields": {
+      "code": "RO",
+      "dial_code": "+40",
+      "name": "Romania"
+    }
+  },
+  {
+    "pk": 177,
+    "model": "core.Country",
+    "fields": {
+      "code": "RU",
+      "dial_code": "+7",
+      "name": "Russia"
+    }
+  },
+  {
+    "pk": 178,
+    "model": "core.Country",
+    "fields": {
+      "code": "RW",
+      "dial_code": "+250",
+      "name": "Rwanda"
+    }
+  },
+  {
+    "pk": 179,
+    "model": "core.Country",
+    "fields": {
+      "code": "RE",
+      "dial_code": "+262",
+      "name": "Reunion"
+    }
+  },
+  {
+    "pk": 180,
+    "model": "core.Country",
+    "fields": {
+      "code": "BL",
+      "dial_code": "+590",
+      "name": "Saint Barthelemy"
+    }
+  },
+  {
+    "pk": 181,
+    "model": "core.Country",
+    "fields": {
+      "code": "SH",
+      "dial_code": "+290",
+      "name": "Saint Helena"
+    }
+  },
+  {
+    "pk": 182,
+    "model": "core.Country",
+    "fields": {
+      "code": "KN",
+      "dial_code": "+1869",
+      "name": "Saint Kitts and Nevis"
+    }
+  },
+  {
+    "pk": 183,
+    "model": "core.Country",
+    "fields": {
+      "code": "LC",
+      "dial_code": "+1758",
+      "name": "Saint Lucia"
+    }
+  },
+  {
+    "pk": 184,
+    "model": "core.Country",
+    "fields": {
+      "code": "MF",
+      "dial_code": "+590",
+      "name": "Saint Martin"
+    }
+  },
+  {
+    "pk": 185,
+    "model": "core.Country",
+    "fields": {
+      "code": "PM",
+      "dial_code": "+508",
+      "name": "Saint Pierre and Miquelon"
+    }
+  },
+  {
+    "pk": 186,
+    "model": "core.Country",
+    "fields": {
+      "code": "VC",
+      "dial_code": "+1784",
+      "name": "Saint Vincent and the Grenadines"
+    }
+  },
+  {
+    "pk": 187,
+    "model": "core.Country",
+    "fields": {
+      "code": "WS",
+      "dial_code": "+685",
+      "name": "Samoa"
+    }
+  },
+  {
+    "pk": 188,
+    "model": "core.Country",
+    "fields": {
+      "code": "SM",
+      "dial_code": "+378",
+      "name": "San Marino"
+    }
+  },
+  {
+    "pk": 189,
+    "model": "core.Country",
+    "fields": {
+      "code": "ST",
+      "dial_code": "+239",
+      "name": "Sao Tome and Principe"
+    }
+  },
+  {
+    "pk": 190,
+    "model": "core.Country",
+    "fields": {
+      "code": "SA",
+      "dial_code": "+966",
+      "name": "Saudi Arabia"
+    }
+  },
+  {
+    "pk": 191,
+    "model": "core.Country",
+    "fields": {
+      "code": "SN",
+      "dial_code": "+221",
+      "name": "Senegal"
+    }
+  },
+  {
+    "pk": 192,
+    "model": "core.Country",
+    "fields": {
+      "code": "RS",
+      "dial_code": "+381",
+      "name": "Serbia"
+    }
+  },
+  {
+    "pk": 193,
+    "model": "core.Country",
+    "fields": {
+      "code": "SC",
+      "dial_code": "+248",
+      "name": "Seychelles"
+    }
+  },
+  {
+    "pk": 194,
+    "model": "core.Country",
+    "fields": {
+      "code": "SL",
+      "dial_code": "+232",
+      "name": "Sierra Leone"
+    }
+  },
+  {
+    "pk": 195,
+    "model": "core.Country",
+    "fields": {
+      "code": "SG",
+      "dial_code": "+65",
+      "name": "Singapore"
+    }
+  },
+  {
+    "pk": 196,
+    "model": "core.Country",
+    "fields": {
+      "code": "SK",
+      "dial_code": "+421",
+      "name": "Slovakia"
+    }
+  },
+  {
+    "pk": 197,
+    "model": "core.Country",
+    "fields": {
+      "code": "SI",
+      "dial_code": "+386",
+      "name": "Slovenia"
+    }
+  },
+  {
+    "pk": 198,
+    "model": "core.Country",
+    "fields": {
+      "code": "SB",
+      "dial_code": "+677",
+      "name": "Solomon Islands"
+    }
+  },
+  {
+    "pk": 199,
+    "model": "core.Country",
+    "fields": {
+      "code": "SO",
+      "dial_code": "+252",
+      "name": "Somalia"
+    }
+  },
+  {
+    "pk": 200,
+    "model": "core.Country",
+    "fields": {
+      "code": "ZA",
+      "dial_code": "+27",
+      "name": "South Africa"
+    }
+  },
+  {
+    "pk": 201,
+    "model": "core.Country",
+    "fields": {
+      "code": "SS",
+      "dial_code": "+211",
+      "name": "South Sudan"
+    }
+  },
+  {
+    "pk": 202,
+    "model": "core.Country",
+    "fields": {
+      "code": "GS",
+      "dial_code": "+500",
+      "name": "South Georgia and the South Sandwich Islands"
+    }
+  },
+  {
+    "pk": 203,
+    "model": "core.Country",
+    "fields": {
+      "code": "ES",
+      "dial_code": "+34",
+      "name": "Spain"
+    }
+  },
+  {
+    "pk": 204,
+    "model": "core.Country",
+    "fields": {
+      "code": "LK",
+      "dial_code": "+94",
+      "name": "Sri Lanka"
+    }
+  },
+  {
+    "pk": 205,
+    "model": "core.Country",
+    "fields": {
+      "code": "SD",
+      "dial_code": "+249",
+      "name": "Sudan"
+    }
+  },
+  {
+    "pk": 206,
+    "model": "core.Country",
+    "fields": {
+      "code": "SR",
+      "dial_code": "+597",
+      "name": "Suriname"
+    }
+  },
+  {
+    "pk": 207,
+    "model": "core.Country",
+    "fields": {
+      "code": "SJ",
+      "dial_code": "+47",
+      "name": "Svalbard and Jan Mayen"
+    }
+  },
+  {
+    "pk": 208,
+    "model": "core.Country",
+    "fields": {
+      "code": "SZ",
+      "dial_code": "+268",
+      "name": "Swaziland"
+    }
+  },
+  {
+    "pk": 209,
+    "model": "core.Country",
+    "fields": {
+      "code": "SE",
+      "dial_code": "+46",
+      "name": "Sweden"
+    }
+  },
+  {
+    "pk": 210,
+    "model": "core.Country",
+    "fields": {
+      "code": "CH",
+      "dial_code": "+41",
+      "name": "Switzerland"
+    }
+  },
+  {
+    "pk": 211,
+    "model": "core.Country",
+    "fields": {
+      "code": "SY",
+      "dial_code": "+963",
+      "name": "Syria"
+    }
+  },
+  {
+    "pk": 212,
+    "model": "core.Country",
+    "fields": {
+      "code": "TW",
+      "dial_code": "+886",
+      "name": "Taiwan"
+    }
+  },
+  {
+    "pk": 213,
+    "model": "core.Country",
+    "fields": {
+      "code": "TJ",
+      "dial_code": "+992",
+      "name": "Tajikistan"
+    }
+  },
+  {
+    "pk": 214,
+    "model": "core.Country",
+    "fields": {
+      "code": "TZ",
+      "dial_code": "+255",
+      "name": "Tanzania"
+    }
+  },
+  {
+    "pk": 215,
+    "model": "core.Country",
+    "fields": {
+      "code": "TH",
+      "dial_code": "+66",
+      "name": "Thailand"
+    }
+  },
+  {
+    "pk": 216,
+    "model": "core.Country",
+    "fields": {
+      "code": "TL",
+      "dial_code": "+670",
+      "name": "Timor-Leste"
+    }
+  },
+  {
+    "pk": 217,
+    "model": "core.Country",
+    "fields": {
+      "code": "TG",
+      "dial_code": "+228",
+      "name": "Togo"
+    }
+  },
+  {
+    "pk": 218,
+    "model": "core.Country",
+    "fields": {
+      "code": "TK",
+      "dial_code": "+690",
+      "name": "Tokelau"
+    }
+  },
+  {
+    "pk": 219,
+    "model": "core.Country",
+    "fields": {
+      "code": "TO",
+      "dial_code": "+676",
+      "name": "Tonga"
+    }
+  },
+  {
+    "pk": 220,
+    "model": "core.Country",
+    "fields": {
+      "code": "TT",
+      "dial_code": "+1868",
+      "name": "Trinidad and Tobago"
+    }
+  },
+  {
+    "pk": 221,
+    "model": "core.Country",
+    "fields": {
+      "code": "TN",
+      "dial_code": "+216",
+      "name": "Tunisia"
+    }
+  },
+  {
+    "pk": 222,
+    "model": "core.Country",
+    "fields": {
+      "code": "TR",
+      "dial_code": "+90",
+      "name": "Turkey"
+    }
+  },
+  {
+    "pk": 223,
+    "model": "core.Country",
+    "fields": {
+      "code": "TM",
+      "dial_code": "+993",
+      "name": "Turkmenistan"
+    }
+  },
+  {
+    "pk": 224,
+    "model": "core.Country",
+    "fields": {
+      "code": "TC",
+      "dial_code": "+1649",
+      "name": "Turks and Caicos Islands"
+    }
+  },
+  {
+    "pk": 225,
+    "model": "core.Country",
+    "fields": {
+      "code": "TV",
+      "dial_code": "+688",
+      "name": "Tuvalu"
+    }
+  },
+  {
+    "pk": 226,
+    "model": "core.Country",
+    "fields": {
+      "code": "UG",
+      "dial_code": "+256",
+      "name": "Uganda"
+    }
+  },
+  {
+    "pk": 227,
+    "model": "core.Country",
+    "fields": {
+      "code": "UA",
+      "dial_code": "+380",
+      "name": "Ukraine"
+    }
+  },
+  {
+    "pk": 228,
+    "model": "core.Country",
+    "fields": {
+      "code": "AE",
+      "dial_code": "+971",
+      "name": "United Arab Emirates"
+    }
+  },
+  {
+    "pk": 229,
+    "model": "core.Country",
+    "fields": {
+      "code": "GB",
+      "dial_code": "+44",
+      "name": "United Kingdom"
+    }
+  },
+  {
+    "pk": 230,
+    "model": "core.Country",
+    "fields": {
+      "code": "US",
+      "dial_code": "+1",
+      "name": "United States"
+    }
+  },
+  {
+    "pk": 231,
+    "model": "core.Country",
+    "fields": {
+      "code": "UY",
+      "dial_code": "+598",
+      "name": "Uruguay"
+    }
+  },
+  {
+    "pk": 232,
+    "model": "core.Country",
+    "fields": {
+      "code": "UZ",
+      "dial_code": "+998",
+      "name": "Uzbekistan"
+    }
+  },
+  {
+    "pk": 233,
+    "model": "core.Country",
+    "fields": {
+      "code": "VU",
+      "dial_code": "+678",
+      "name": "Vanuatu"
+    }
+  },
+  {
+    "pk": 234,
+    "model": "core.Country",
+    "fields": {
+      "code": "VE",
+      "dial_code": "+58",
+      "name": "Venezuela"
+    }
+  },
+  {
+    "pk": 235,
+    "model": "core.Country",
+    "fields": {
+      "code": "VN",
+      "dial_code": "+84",
+      "name": "Vietnam"
+    }
+  },
+  {
+    "pk": 236,
+    "model": "core.Country",
+    "fields": {
+      "code": "VG",
+      "dial_code": "+1284",
+      "name": "Virgin Islands, British"
+    }
+  },
+  {
+    "pk": 237,
+    "model": "core.Country",
+    "fields": {
+      "code": "VI",
+      "dial_code": "+1340",
+      "name": "Virgin Islands, U.S."
+    }
+  },
+  {
+    "pk": 238,
+    "model": "core.Country",
+    "fields": {
+      "code": "WF",
+      "dial_code": "+681",
+      "name": "Wallis and Futuna"
+    }
+  },
+  {
+    "pk": 239,
+    "model": "core.Country",
+    "fields": {
+      "code": "YE",
+      "dial_code": "+967",
+      "name": "Yemen"
+    }
+  },
+  {
+    "pk": 240,
+    "model": "core.Country",
+    "fields": {
+      "code": "ZM",
+      "dial_code": "+260",
+      "name": "Zambia"
+    }
+  },
+  {
+    "pk": 241,
+    "model": "core.Country",
+    "fields": {
+      "code": "ZW",
+      "dial_code": "+263",
+      "name": "Zimbabwe"
+    }
+  }
+]

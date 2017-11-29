@@ -1,0 +1,234 @@
+{% extends "static/base.html" %}
+{% load curriculum thumbnail %}
+
+{% block content %}
+{% get_curriculum as curriculum %}
+<div class="home">
+  <div id="about-me" class="parallax-container about-container">
+    <div class="parallax">
+      <img src="{{STATIC_URL}}img/home/nelson.jpg" class="hide-on-small-and-down">
+      <img src="{{STATIC_URL}}img/home/nelson-mobile.jpg" class="show-on-small">
+    </div>
+    <div class="text-container row">
+      <div class="col s12 m5 offset-m1">
+        <h1>{{curriculum.personal_information.name}}</h1>
+        <p class="role">{{curriculum.personal_information.role}}</p>
+        {{curriculum.personal_information.about|safe}}
+        <a class="more-button waves-effect waves-light btn-large orange accent-2 scroll-to-div"
+           scroll-id="experience">More about me</a>
+      </div>
+    </div>
+  </div>
+  <nav id="navigation" class="grey white">
+    <div class="nav-wrapper">
+      <span class="left name grey-text text-darken-2">Nelson Monteiro</span>
+      <ul class="right">
+        <li><a href="#about-me" class="grey-text text-darken-2 scroll-to-div">About me</a></li>
+        <li><a href="#experience" class="grey-text text-darken-2 scroll-to-div">Work Experience</a></li>
+        <li><a href="#education" class="grey-text text-darken-2 scroll-to-div hide-on-small-and-down"
+               scroll-offset="64">Education</a></li>
+        <li><a href="#personal-information" class="grey-text text-darken-2 scroll-to-div hide-on-med-and-down"
+               scroll-offset="64">Personal Information</a></li>
+        <li><a href="#contacts" class="grey-text text-darken-2 scroll-to-div hide-on-med-and-down"
+               scroll-offset="64">Contacts</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div id="experience" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m10 offset-m1 l8 offset-l2">
+          <h2>Work Experience</h2>
+          {% for experience in curriculum.work_experience %}
+          <div class="experience-container">
+            <div class="date amber-text text-darken-3">{{experience.get_date_display}}</div>
+            <div class="organization"><b>Organization:</b> {{experience.organization}}</div>
+            <div class="title"><b>Title:</b> {{experience.title}}</div>
+
+            {{experience.description|safe}}
+
+            {% with total_projects=experience.portfolio.count %}
+            {% for project in experience.portfolio.all %}
+              {% if forloop.first and total_projects > 1 %}
+                <h4>Main projects</h4>
+              {% endif %}
+
+              <div class="project-container">
+                <div class="row">
+                  <div class="col s12 m4">
+                    {% thumbnail project.image '500' as im %}
+                      <img class="image" src="{{ im.url }}" width="100%" />
+                    {% endthumbnail %}
+                  </div>
+                  <div class="col s12 m8">
+                    {% if project.project %}
+                      <h5>Project</h5>
+                      {{project.project}}
+                    {% endif %}
+
+                    {% if project.organization %}
+                      <h5>Organization</h5>
+                      {{project.organization}}
+                    {% endif %}
+
+                    <h5>About</h5>
+                    {{project.description|safe}}
+
+                    {% if project.main_activities %}
+                      <h5>Main activities</h5>
+                      {{project.main_activities|safe}}
+                    {% endif %}
+
+                    {% if project.key_technologies %}
+                      <h5>Key technologies</h5>
+                      {{project.key_technologies|safe}}
+                    {% endif %}
+
+                    {% if project.website %}
+                      <h5>Website</h5>
+                      <a class="inherit" href="{{project.website}}">{{project.website}}</a>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+            {% endwith %}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="education" class="section grey lighten-5">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m10 offset-m1 l8 offset-l2">
+          <h2>Education</h2>
+          {% for education in curriculum.education %}
+          <div class="education-container">
+            <div class="row">
+              <div class="col s11">
+                  <div class="date amber-text text-darken-3">{{education.get_date_display}}</div>
+                  <div class="organization"><b>Organization:</b> {{education.organization}}</div>
+                  <div class="title"><b>Title:</b> {{education.title}}</div>
+              </div>
+              <div class="col s1">
+                {% thumbnail education.image '400' as im %}
+                  <img class="image" src="{{ im.url }}" width="100%" />
+                {% endthumbnail %}
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="personal-information" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m10 offset-m1 l8 offset-l2">
+          <h2>Personal Information</h2>
+
+            {% if curriculum.personal_information.date_of_birth %}
+            <div><b>Age:</b> {{curriculum.personal_information.age}} years old</div>
+            {% endif %}
+
+            {% if curriculum.languages %}
+            <div>
+              <b>Languages:</b>
+              {% for language in curriculum.languages %}
+                {{language}}{% if language.mother_tongue %} (mother tongue){% endif %}{% if not forloop.last %}, {% endif %}{% endfor %}.
+            </div>
+            {% endif %}
+
+            {% if curriculum.personal_information.other_skills %}
+              <h5>Other skills</h5>
+              {{curriculum.personal_information.other_skills|safe}}
+            {% endif %}
+
+            {% if curriculum.personal_information.hobbies %}
+              <h5>Hobbies</h5>
+              {{curriculum.personal_information.hobbies|safe}}
+            {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer id="contacts" class="scrollspy page-footer grey darken-3">
+    <div class="container footer-container">
+      <div class="row">
+        <div class="col s12 m10 offset-m1 l8 offset-l2">
+          {{curriculum.personal_information.footer_text|safe}}
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container">
+        <a class="nmonteiro-logo white"></a>
+        <span class="left"><span class="name">Nelson Monteiro</span> &copy;</span>
+        <span class="right">
+          {% if curriculum.personal_information.email %}
+          <a href="mailto:{{curriculum.personal_information.email}}" target="_blank"
+             class="waves-effect waves-light white-text" >
+            <i class="fa fa-envelope fa-2x"></i></a>
+          {% endif %}
+
+          {% if curriculum.personal_information.facebook %}
+          <a href="{{curriculum.personal_information.facebook}}" target="_blank"
+             class="waves-effect waves-light white-text">
+            <i class="fa fa-facebook-square fa-2x"></i></a>
+          {% endif %}
+
+          {% if curriculum.personal_information.twitter %}
+          <a href="{{curriculum.personal_information.twitter}}" target="_blank"
+             class="waves-effect waves-light white-text">
+            <i class="fa fa-twitter-square fa-2x"></i></a>
+          {% endif %}
+
+          {% if curriculum.personal_information.linkedin %}
+          <a href="{{curriculum.personal_information.linkedin}}" target="_blank"
+             class="waves-effect waves-light white-text">
+            <i class="fa fa-linkedin-square fa-2x"></i></a>
+          {% endif %}
+
+          {% if curriculum.personal_information.github %}
+          <a href="{{curriculum.personal_information.github}}" target="_blank"
+             class="waves-effect waves-light white-text">
+            <i class="fa fa-github-square fa-2x"></i></a>
+          {% endif %}
+        </span>
+      </div>
+    </div>
+  </footer>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  $(document).ready(function(){
+     $('.parallax').parallax();
+     $('#navigation').pushpin({
+       top: $('#navigation').offset().top
+     });
+  });
+
+  $('#join-email-form').submit(function(e) {
+    e.preventDefault();
+    $.ajax({
+      url: '/api/users/join/',
+      method: 'post',
+      data: JSON.stringify({'email': $('#join-email-input').val() }),
+      contentType: 'application/json; charset=utf-8',
+      dataType: 'json',
+      success: function()  {
+        $('#join-email-success').removeClass('hide');
+        $('#join-email-form').addClass('hide');
+      }
+    })
+  });
+</script>
+{% endblock %}

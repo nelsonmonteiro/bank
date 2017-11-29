@@ -1,0 +1,18 @@
+<div class="main-container" [class.mobile-device]="isMobileDevice"
+     [class.side-nav-open]="sideNav.isOpen" scrollSpy>
+    <router-outlet></router-outlet>
+</div>
+<div class="side-nav" [class.mobile-device]="isMobileDevice">
+    <div class="logo-container">
+        <span class="logo mini black"></span>
+    </div>
+    <div class="side-nav-group">
+        <a class="side-nav-item">Home</a>
+        <a class="side-nav-item">Sign In</a>
+        <a class="side-nav-item">Projects</a>
+    </div>
+    <div class="side-nav-group">
+        <a class="side-nav-item">Terms of service</a>
+        <a class="side-nav-item">Privacy policy</a>
+    </div>
+</div>

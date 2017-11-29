@@ -1,0 +1,113 @@
+# -----------------------------------------------------------------------------
+# SERVER
+# -----------------------------------------------------------------------------
+
+.svn
+uploads
+local_settings.py
+env
+cache-forever
+build
+backend/media
+backend/static
+logs/
+
+# Sqlite3 DB
+*.sqlite3
+
+# Sass
+.sass-cache
+
+
+# STANDARD PYTHON GITIGNORE
+*.py[cod]
+*.pyc
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+__pycache__
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+
+
+# -----------------------------------------------------------------------------
+# APP
+# -----------------------------------------------------------------------------
+
+# compiled output
+/app/tmp
+/app/out-tsc
+/app/build
+/app/dist
+
+# dependencies
+/app/node_modules
+
+
+# misc
+/app/.sass-cache
+/app/connect.lock
+/app/coverage
+/app/libpeerconnection.log
+npm-debug.log
+testem.log
+/app/typings
+
+# e2e
+/app/e2e/*.js
+/app/e2e/*.map
+
+
+
+# -----------------------------------------------------------------------------
+# GLOBAL
+# -----------------------------------------------------------------------------
+
+# IDEs and editors
+.idea/
+.project
+.pydevproject
+.mr.developer.cfg
+.classpath
+.c9/
+*.launch
+.settings/
+*.chproj
+*.sublime-*
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.settings/org.eclipse.core.resources.prefs
+
+
+# System Files
+.DS_Store
+Thumbs.db
+*.icloud
+/keys/
+thumbnail_kvstore*

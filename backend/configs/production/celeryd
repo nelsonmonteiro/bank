@@ -1,0 +1,24 @@
+CELERYD_NODES="worker"
+
+CELERY_BIN="/home/ubuntu/sites/bank/env/bin/python -m celery"
+CELERYD_OPTS="-B"
+
+CELERY_APP="worker"
+
+# Where to chdir at start.
+CELERYD_CHDIR="/home/ubuntu/sites/bank/backend/configs/production"
+
+
+# %N will be replaced with the first part of the nodename.
+CELERYD_LOG_FILE="/home/ubuntu/sites/bank/logs/bank-celery-%N.log"
+CELERYD_PID_FILE="/var/run/celery/%N.pid"
+
+# Workers should run as an unprivileged user.
+#   You need to create this user manually (or you can choose
+#   a user/group combination that already exists, e.g. nobody).
+CELERYD_USER="ubuntu"
+CELERYD_GROUP="ubuntu"
+
+# If enabled pid and log directories will be created if missing,
+# and owned by the userid/group configured.
+CELERY_CREATE_DIRS=1
